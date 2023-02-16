@@ -33,7 +33,7 @@ module.exports = {
     i18n: {
       plugins: [
         [
-          'formatjs',
+          'formatjs_testing',
           {
             idInterpolationPattern: '[sha512:contenthash:base64:6]',
             ast: true,
