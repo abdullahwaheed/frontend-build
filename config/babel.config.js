@@ -35,8 +35,8 @@ module.exports = {
         [
           'formatjs',
           {
-            idInterpolationPattern: '[sha512:contenthash:base64:6]',
-            ast: true,
+            messagesDir: './temp/babel-plugin-react-intl',
+            moduleSourceName: '@edx/frontend-platform/i18n',
           },
         ],
       ],
