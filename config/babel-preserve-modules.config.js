@@ -17,7 +17,7 @@ module.exports = {
     i18n: {
       plugins: [
         [
-          'formatjs',
+          'formatjs_testing',
         ],
       ],
     },
